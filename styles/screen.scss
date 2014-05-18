@@ -269,11 +269,11 @@ a {
 	&.cover {
 		background:#000;
 		@mixin cover {
-			& > img,
-            & > svg,
-			object,
-            video,
-            canvas {
+			img:not(.uncover),
+            svg:not(.uncover),
+			object:not(.uncover),
+            video:not(.uncover),
+            canvas:not(.uncover) {
 				@content;
 				}
 			}
