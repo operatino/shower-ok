@@ -162,7 +162,7 @@ a {
 .slide {
   position: relative;
   width: 1024px;
-  height: 640px;
+  height: 768px;
   overflow: hidden;
   background-color: #FFF;
   -webkit-print-color-adjust: exact;
@@ -206,10 +206,10 @@ a {
   overflow: hidden;
   padding: 70px 120px 0;
   width: 784px;
-  height: 570px;
+  height: 698px;
 }
 .debug .slide {
-  background: url(../images/ribbon.svg) 865px 0 no-repeat, url(../images/grid-16x10.svg) no-repeat, white;
+  background: url(../images/ribbon.svg) 865px 0 no-repeat, url(../images/grid-4x3.svg) no-repeat, white;
 }
 
 .slide h2 {
@@ -471,7 +471,7 @@ a {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -640px;
+  bottom: -768px;
   z-index: 1;
   display: none;
   padding: 20px 120px;
@@ -500,7 +500,7 @@ a {
   .list .slide {
     overflow: visible;
     float: left;
-    margin: 0 -412px -220px 0;
+    margin: 0 -412px -284px 0;
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
@@ -515,7 +515,7 @@ a {
 }
 @media screen and (max-width: 1324px) {
   .list .slide {
-    margin: 0 -688px -400px 0;
+    margin: 0 -688px -496px 0;
     -webkit-transform: scale(0.25);
     -moz-transform: scale(0.25);
     -ms-transform: scale(0.25);
@@ -533,7 +533,7 @@ a {
     left: 0;
     z-index: -1;
     width: 512px;
-    height: 320px;
+    height: 384px;
     box-shadow: 0 0 0 10px #ccc;
     border-radius: 2px;
     content: '';
@@ -552,7 +552,7 @@ a {
 @media screen and (max-width: 1324px) {
   .list .slide:before {
     width: 256px;
-    height: 160px;
+    height: 192px;
     -webkit-transform: scale(4);
     -moz-transform: scale(4);
     -ms-transform: scale(4);
@@ -618,9 +618,9 @@ a {
     top: 50%;
     left: 50%;
     overflow: hidden;
-    margin: -320px 0 0 -512px;
+    margin: -384px 0 0 -512px;
     width: 1024px;
-    height: 640px;
+    height: 768px;
     background: #000;
   }
   .full .slide {
@@ -659,8 +659,16 @@ a {
 }
 @page {
   margin: 0;
-  size: 1024px 640px;
+  size: 1024px 768px;
 }
+body {
+  font-size: 30px;
+}
+
+.slide h3 {
+  font-size: 38px;
+}
+
 .brand-bg {
   background-color: #eb722e !important;
 }

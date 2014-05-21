@@ -13,7 +13,8 @@ module.exports = function(grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'styles/screen.css': 'styles/screen.scss'
+                    'styles/screen.css': 'styles/screen.scss',
+                    'styles/screen_43.css': 'styles/screen_43.scss'
                 }
             }
         },
